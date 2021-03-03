@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: "/",
+    publicPath: "/serve-vue-app",
     outputDir: "docs"
   };

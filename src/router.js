@@ -21,17 +21,17 @@ export default new Router(
     routes : [
 
       //{path:'/', component:Abc,name:"home"},
-      {path:'/', component:LoginPage,name:"LoginPage"},
-      {path:'/repeatString',component:repeatString,name:"repeatString"},
-      {path:'/longestWord', component:longestWord,name:"longestWord"},
-      {path:'/confirmEnding',component:confirmEnding,name:"confirmEnding"},
-      {path:'/homepage',component:homepage,name:"homepage"},
-      {path:'/Sum', component:Sum,name:"Sum"},
-      {path:'/output', component:todo,name:"todo",props: true},
-      {path:'/bubble', component:bubble,name:"bubble"},
-      {path:'/WordCount', component:WordCount,name:"WordCount"},
-      {path:'/Main', component:Main,name:"Main"},
-      {path:'/EXP1', component:EXP1,name:"EXP1"},
+      {path:'/serve-vue-app/', component:LoginPage,name:"LoginPage"},
+      {path:'/serve-vue-app/repeatString',component:repeatString,name:"repeatString"},
+      {path:'/serve-vue-app/longestWord', component:longestWord,name:"longestWord"},
+      {path:'/serve-vue-app/confirmEnding',component:confirmEnding,name:"confirmEnding"},
+      {path:'/serve-vue-app/homepage',component:homepage,name:"homepage"},
+      {path:'/serve-vue-app/Sum', component:Sum,name:"Sum"},
+      {path:'/serve-vue-app/output', component:todo,name:"todo",props: true},
+      {path:'/serve-vue-app/bubble', component:bubble,name:"bubble"},
+      {path:'/serve-vue-app/WordCount', component:WordCount,name:"WordCount"},
+      {path:'/serve-vue-app/Main', component:Main,name:"Main"},
+      {path:'/serve-vue-app/EXP1', component:EXP1,name:"EXP1"},
 
 
     ]
