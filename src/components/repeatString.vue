@@ -26,7 +26,7 @@
                     repeatStr += this.str.concat(", ");
                     num1--;
                 }
-            return repeatStr.substr(1,num1-2);
+            return repeatStr.trimLeft();
         }
         },
     }
