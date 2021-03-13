@@ -25,9 +25,9 @@ export default {
             var str1=this.str.toLowerCase();
             var str2=this.target.toLowerCase();
             if(str1.substr(-str2.length)==str2){
-                return true;
+                return "true";
             }
-            return false;
+            return "false";
         }
     }
     

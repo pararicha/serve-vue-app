@@ -6,6 +6,7 @@
         <router-link :to ="{name:'Sum'}"><button><b>Sum</b></button></router-link><br/><br/>
         <router-link :to ="{name:'repeatString'}"><button><b>Repeat String</b></button></router-link><br/><br/>
         <router-link :to ="{name:'confirmEnding'}"><button><b>Confirm Ending</b></button></router-link><br/><br/>
+        <router-link :to ="{name:'sumOfNumberInRange'}"><button><b>SumOfNumbersInRange</b></button></router-link><br/><br/>
         <router-link :to ="{name:'longestWord'}"><button><b>Longest Word</b></button></router-link><br/><br/>
     </div>
 </template>
