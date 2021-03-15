@@ -10,8 +10,9 @@ import EXP1 from "./components/exp1.vue"
 import homepage from "./components/homepage.vue"
 import Vue from 'vue'
 import longestWord from "./components/longestWord.vue"
-import confirmEnding from "./components/confirmEnding"
-import repeatString from "./components/repeatString"
+import confirmEnding from "./components/confirmEnding.vue"
+import repeatString from "./components/repeatString.vue"
+import sumOfNumberInRange from "./components/sumOfNumberInRange.vue"
 
 Vue.use(Router)
 export default new Router(
@@ -32,6 +33,7 @@ export default new Router(
       {path:'/serve-vue-app/WordCount', component:WordCount,name:"WordCount"},
       {path:'/serve-vue-app/Main', component:Main,name:"Main"},
       {path:'/serve-vue-app/EXP1', component:EXP1,name:"EXP1"},
+      {path:'/serve-vue-app/sumOfNumberInRange', component:sumOfNumberInRange,name:"sumOfNumberInRange"},
 
 
     ]
